@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, NavParams,Content } from 'ionic-angular';
 import { RoomPage, snapshotToArray } from '../room/room';
 import * as firebase from 'firebase';
-import { SigninPage } from '../signin/signin';
+
 
 @Component({
   selector: 'page-home',

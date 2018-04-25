@@ -64,12 +64,9 @@ export class RoomPage {
   
   signout(){
     let signout = firebase.database().ref('chatrooms/'+this.roomkey).push();
-      signout.set({
-        type:'exit',
-        user:this.nickname
-      });
+      signout.set({});
   
-      this.offStatus = true;
+      
   
       this.navCtrl.setRoot(SigninPage)
     }

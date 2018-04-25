@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import * as firebase from 'firebase';
 
-import { HomePage } from '../pages/home/home';
+
 import { FIREBASE_CONFIG } from './firebase.credentials';
 import { SigninPage } from '../pages/signin/signin';
 @Component({
